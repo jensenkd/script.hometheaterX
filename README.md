@@ -15,32 +15,24 @@ Home Theater Experience scrobbler and library sync
 * [Thanks](#thanks)
 
 ###What is Home Theater Experience?
-Automatically scrobble all TV episodes and movies you are watching to Trakt.tv! Keep a comprehensive history of everything you've watched and be part of a global community of TV and movie enthusiasts. Sign up for a free account at [Trakt.tv](http://trakt.tv) and get a ton of features:
+Automatically scrobble all TV episodes and movies you are watching to HomeTheaterX.com! Keep a comprehensive history of everything you've watched and be part of a global community of TV and movie enthusiasts. Sign up for a free account at [hometheaterX.com](http://hometheaterX.com) and get a ton of features:
 
 * Automatically scrobble what you're watching
-* [Mobile apps](http://trakt.tv/downloads) for iPhone, iPad, Android, and Windows Phone
-* Share what you're watching (in real time) and rating to facebook and twitter
-* Personalized calendar so you never miss a TV show
-* Follow your friends and people you're interesed in
 * Use watchlists so you don't forget what to watch
-* Track your media collections and impress your friends
+* Track your media collections and compare with friends
 * Create custom lists around any topics you choose
 * Easily track your TV show progress across all seasons and episodes
 * Track your progress against industry lists such as the IMDb Top 250
-* Discover new shows and movies based on your viewing habits
-* Widgets for your forum signature
 
 ###What can this addon do?
 * Automatically scrobble TV episodes and movies you are watching 
-* Sync your TV episode and movie collections to Trakt (manually or triggered by a library update)
-* Keep watched statuses synced between Kodi and Trakt
-* Rate movies and episodes after watching them
-* Custom skin/keymap actions for toggling watched status, and rating (tagging and listing disabled for now)
+* Sync your TV episode and movie collections to HomeTheaterX (manually or triggered by a library update)
+* Keep watched statuses synced between Kodi and HomeTheaterX
 
 ###What can be scrobbled?
 This plugin will scrobble local media and most remote streaming content. Local media should be played in Kodi library mode and you should use [TVDb](http://thetvdb.com/) (for tv shows) and [TMDb](http://themoviedb.org) (for movies) as your scrapers. TV shows are identified using their TVDb ID. Movies are identified using the IMDb ID. This allows Trakt to match the correct show or movie more accurately, regardless of the title.
 
-Remote streaming content will scrobble assuming the metadata is correctly set in Kodi. Add-ons that stream content need to correctly identify TV episodes and movies with as much metadata as possible for Trakt to know what you're watching.
+Remote streaming content will scrobble assuming the metadata is correctly set in Kodi. Add-ons that stream content need to correctly identify TV episodes and movies with as much metadata as possible for HomeTheaterX to know what you're watching.
 
 ###Installation
 If your not a developer, you should only install this from the official Kodi repo via Kodi itself. If you are a dev, here is how you install the dev version:
@@ -51,9 +43,7 @@ If your not a developer, you should only install this from the official Kodi rep
 4. Select *Trakt* and go to **Configure**
 5. Get your **PIN** [here](http://www.hometheaterx.com/apikey) and enter it, change any other settings as needed
 6. Select **OK** to save your settings
-7. Watch *something* and see it show up on Trakt.tv!
-
-Please note that *something* does not cover all Kodi possible streaming sources. Local files and strm files scrapped to your library should be OK, however generic third party streaming addons can fail. It is up to the developers of these addons to be supported by this plugin. Please take a look https://github.com/trakt/script.trakt/wiki/Providing-id's-to-facilitate-scrobbling
+7. Watch *something* and see it show up on HomeTheaterX.com!
 
 ###Problems?
 ####"I found something that doesn't work"
@@ -61,7 +51,7 @@ Please note that *something* does not cover all Kodi possible streaming sources.
 * If not, create a new issue and provide as much data about your system as possible, a logfile will also be needed.
 
 ####Creating logfiles
-* To create a logfile, enable the debug setting in Kodi AND script.trakt, otherwise the logfile won't show any data from script.trakt. Check the [Kodi documentation] (http://kodi.wiki/view/Log_file) if you don't know where your logfile can be found.
+* To create a logfile, enable the debug setting in Kodi AND script.hometheaterX, otherwise the logfile won't show any data from script.hometheaterX. Check the [Kodi documentation] (http://kodi.wiki/view/Log_file) if you don't know where your logfile can be found.
 
 ###Contribute
 
@@ -70,7 +60,7 @@ Please note that *something* does not cover all Kodi possible streaming sources.
 * Please don't add pull requests for translation updates these have to go work their way through the translation workflow (see [Translations](#translations))
 
 ####Translations
-* Translations are done via the Transifex project of Kodi. If you want to support translation efforts, read [this] (http://kodi.wiki/view/Translation_System) and look for script-trakt under the XBMC Addons project in Transifex.
+* Translations are done via the Transifex project of Kodi. If you want to support translation efforts, read [this] (http://kodi.wiki/view/Translation_System) and look for script-hometheaterX under the XBMC Addons project in Transifex.
 
 ###Thanks
 * Special thanks to all who contribute to this plugin! Check the commit history and changelog to see these talented developers.
