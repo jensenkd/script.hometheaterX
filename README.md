@@ -1,4 +1,4 @@
-Trakt.tv scrobbler and library sync
+Home Theater Experience scrobbler and library sync
 ==============================================
 
 ###Table of Contents
